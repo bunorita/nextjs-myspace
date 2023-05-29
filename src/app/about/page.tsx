@@ -4,7 +4,7 @@ export const metadata: Metadata = {
   description: 'We are a social media company',
 }
 
-export default function () {
+export default function About() {
   return (
     <main>
       <h1>About us</h1>

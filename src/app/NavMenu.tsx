@@ -2,7 +2,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import styles from './NavMenu.module.css'
 
-export default function () {
+export default function NavMenu() {
   return (
     <nav className={styles.nav}>
       <Link href={'/'}>
